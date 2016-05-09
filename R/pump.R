@@ -1,3 +1,4 @@
+#' @export
 Pump <- R6::R6Class(
   "Pump",
   public = list(
