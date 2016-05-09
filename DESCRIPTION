@@ -1,14 +1,15 @@
 Package: pumpr
-Title: What the Package Does (one line, title case)
+Title: Pump It!
 Version: 0.0-0
+Date: 2016-05-09
 Authors@R: person("Kirill", "Müller", role = c("aut", "cre"), email = "krlmlr+r@mailbox.org")
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.0)
+Description: Provides the 'Pump' 'R6' class that helps assembling a single
+  result for data providers that split their output in chunks.
 License: GPL-3
+URL: http://krlmlr.github.io/
+BugReports: https://github.com/krlmlr/
+Imports: R6, rstackdeque
+Suggests: testthat
 Encoding: UTF-8
 LazyData: true
-Date: 2016-05-09
 URLNote: https://github.com/krlmlr/
-BugReports: https://github.com/krlmlr/
-URL: http://krlmlr.github.io/
-Suggests: testthat
